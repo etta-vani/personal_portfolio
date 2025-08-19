@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Etta Vani</h1>
+      <h3>And I'm a <span class="multiple-text"></span></h3>
+      <div class="social-media">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="https://github.com/etta-vani" target="_blank">
+  <i class='bx bxl-github'></i></a>
+        <a href="vanireddy16825@gmail.com"><i class='bx bxl-gmail'></i></a>
+        <a href="https://www.linkedin.com/in/vani-reddy-598722294/"><i class='bx bxl-linkedin'></i></a>
+      </div>
+      <a href="resume.pdf" class="btn" target="_blank" download>Download CV</a>
+    </div>
+    <div class="home-img">
+      <img src="images/profile.jpg" alt="my profile Profile">
+    </div>
+  </section>
+
+  <!-- About Section -->
+   <section class="about" id="about">
+  <h2 class="heading">About <span>Me</span></h2>
+
+  <div class="about-container">
+    <!-- Left: Profile Image -->
+    <div class="about-img">
+      <img src="images/profile.jpg" alt="About Me Photo">
+    </div>
+
+    <!-- Right: About Text + Education -->
+    <div class="about-content">
+      <h3>Frontend Developer</h3>
+      <p>
+        I am a passionate frontend developer with experience in building responsive and modern websites.
+        I love solving real-world problems with clean code and creative design.
+      </p>
+
+      <h4>🎓 Education</h4>
+      <ul class="education-list">
+        <li><strong>B.Tech in Computer Science</strong> – MLR Institute of Technology (2023–2027) <br>
+         currently 3-1 semester <br>
+         CGPA: <strong>9.1/10</strong></li>
+        <li><strong>Intermediate</strong> – sri gayatri Junior College (2021–2023)</li>
+        <li><strong>High School</strong> – penchal reddy High School (2020–2021)</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <h2 class="heading">My <span>Skills</span></h2>
+    <div class="services-container">
+      <div class="services-box">
+        <i class='bx bx-code'></i>
+        <h3>💻Web Development</h3>
+        <p>I build responsive and interactive websites using modern frontend and backend technologies.
+Passionate about creating clean UI and seamless user experiences.</p>
+      </div>
+      <div class="services-box">
+        <i class='bx bxl-nodejs'></i>
+        <h3>🐍 Python</h3>
+        <p>Proficient in Python for automation, scripting, and data handling.
+Used in various projects including web apps and problem-solving.</p>
+      </div>
+      <div class="services-box">
+        <i class='bx bx-mobile'></i>
+        <h3>☕ Java</h3>
+        <p>Strong foundation in object-oriented programming using Java.
+Skilled in building scalable applications and backend logic.</p>
+      </div>
+      <div class="services-box">
+        <i class='bx bxl-react'></i>
+        <h3>📊 Data Structures & Algorithms (DSA)</h3>
+        <p>Well-versed in solving algorithmic problems with efficient logic.
+Practicing regularly to improve coding speed and problem-solving skills.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+ <section class="projects" id="projects">
+  <h2>My <span>Projects</span></h2>
+  <div class="projects-container">
+
+    <div class="project-box">
+      <img src="images/project1.png" alt="Personal Portfolio">
+      <h3>Personal Portfolio Website</h3>
+      <p>Designed and developed a responsive personal portfolio using HTML, CSS, and JavaScript. Showcases skills, projects, and contact.</p>
+    </div>
+
+    <div class="project-box">
+      <img src="images/project2.png" alt="Price Notifier">
+      <h3>Price Drop Email Notifier</h3>
+      <p>Python script tracks e-commerce prices and notifies via email when price drops, using web scraping and SMTP.</p>
+    </div>
+
+    <div class="project-box">
+      <img src="images/project3.png" alt="MERN Multivendor">
+      <h3>MERN Multi-Vendor Platform</h3>
+      <p>Full-stack e-commerce platform with vendor management, product listings, user auth, built using MongoDB, Express, React, Node.</p>
+    </div>
+
+    <div class="project-box">
+      <img src="images/project4.png" alt="Game">
+      <h3>Rock-Paper-Scissors Game</h3>
+      <p>Fun game created with HTML, CSS, JS featuring animated UI and logic to play against the computer.</p>
+    </div>
+
+    <!-- Add more projects if needed -->
+
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+<section class="contact-section" id="contact">
+  <h2>Contact Me</h2>
+  <form action="https://script.google.com/macros/s/AKfycbxttGGgs82fDVdPEdhMdo11U3c1N9Ory7X7MKQ-bDt2m9Car8PJxDdF1wlL2OE60qoG/exec" method="POST" class="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Etta Vani | All Rights Reserved</p>
+    <div class="footer-iconTop">
+      <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <form name="submit-to-google-sheet">
+  <input name="email" type="email" placeholder="Email" required>
+  <button type="submit">Send</button>
+</form>
+
+<script>
+  const scriptURL = '<https://script.google.com/macros/s/AKfycbwRWANz3BhqVSOUKC8viPYyM4yj-7oDgYBlWGxwmzCOEA0v55j8sAM9sI_ZSiv5XqM/exec>'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+
+</html>
